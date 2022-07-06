@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100 & display=swap');
+
+
+body{
+font-family:'Roboto', sans-serif;
+    overflow-x:hidden;
+
+}
+
+
+#menu a {
+    font-size: 18px;
+    font-weight:bold;
+    color: #3f3f3f;
+
+}
+
+#menu button {
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.carousel-inner{
+    max-height: 10%;
+}
+
+
+@media( max-width:768px) {
+    #intro{ 
+        width: 90% !important; 
+    } 
+}
+
+.servicio-fila{
+    width: 100% !important;
+    text-align: center;
+}
+
+@media (max-width:576px){
+    .icon-wrap {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+    
+}
+.text-right{
+    text-align:right;
+}
+
+
+#contenedor-formulario{
+    position: absolute;
+    top: 30%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    background-color: grey;
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+#titulo-formulario{
+ color: blue;
+}
