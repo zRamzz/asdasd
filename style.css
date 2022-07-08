@@ -4,7 +4,6 @@
 body{
 font-family:'Roboto', sans-serif;
     overflow-x:hidden;
-
 }
 
 
@@ -20,6 +19,9 @@ font-family:'Roboto', sans-serif;
     font-weight: bold;
 
 }
+
+h1{text-align: center;
+padding: 50px;}
 
 .carousel-inner{
     max-height: 10%;
@@ -62,3 +64,12 @@ font-family:'Roboto', sans-serif;
 #titulo-formulario{
  color: blue;
 }
+
+.caja__caja{
+    transition: 2s;
+    transition-timing-function: linear;
+}
+
+.caja__caja{
+    transform: scale(1.2);}
+    
